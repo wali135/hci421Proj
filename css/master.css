@@ -58,5 +58,12 @@ body {
 
 
 .headings{
-	text-align:center;
+	text-align:right;
+}
+.mf{
+	
+}
+
+.search{
+	margin-top:50px;
 }
