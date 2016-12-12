@@ -11,3 +11,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+function framechange(url){
+	document.getElementById("mainframe").src=url;
+	document.getElementById('mainframe').contentWindow.location.reload(true);
+}
