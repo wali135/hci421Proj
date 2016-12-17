@@ -15,3 +15,7 @@ function framechange(url){
 	document.getElementById("mainframe").src=url;
 	document.getElementById('mainframe').contentWindow.location.reload(true);
 }
+
+$(function(){
+    $('.selectpicker').selectpicker();
+});

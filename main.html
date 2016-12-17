@@ -1,17 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+	
+
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Water Hydrant Detail</title>
+		<title>Getting Started</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/master.css" rel="stylesheet">
+		<script src="js/master.js"></script>
 	</head>
+	
+	
 	<body>
 	
 	
+	<div class="container-fluid">
+		<div class="row">
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  
+      <a class="navbar-brand" href="#">WHA</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="main.html">Main <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+       
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="doc.html">Help</a></li>
+        <li><a href="admin.html">Admin Panel</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aslam <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Setting</a></li>
+            <li><a href="#">Report a Problem</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="login.html">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		</div>
+	<div class="row">
+		<h1 class="headings">RECORDS</h1>
+        <div class="btn-group btn-breadcrumb">
+            <a href="main.html" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+            <a href="#" class="btn btn-default">Main</a>
+        </div>
+	</div>
+	
+	<div class="row"></div>
+	<div class="row">
+	<div class="col-md-3">
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#" class="small_text">View Weekly Record</a>
+	  <a href="#"  class="small_text">View Monthly Record</a>
+	  <a href="#"	class="small_text" >Change water Hydrant?</a>
+	  <a href="tables/table.html" target= "mainframe">Daily </a>
+ 
+	  
+	</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+	<div class="col-md-7 ">
+			<iframe name="mainframe" src="tables/table.html" width="100%" height="450px" frameborder="0" scrolling="yes"></iframe>
+	</div>
+	<div class="col-md-2"></div>
+	
+	</div>
+	<div class="row"></div>
+	
+	
+	</div>
+	
+	
+	
+	
+	
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>

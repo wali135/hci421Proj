@@ -60,17 +60,15 @@
 </nav>
 	
 		</div>
-	
 	<div class="row">
-	<div class="col-md-4">
-		
-	</div>
-	<div class="col-md-8">
-			<h1 class="headings">Help Page</h1>
+		<h1 class="headings">Help Page</h1>
+        <div class="btn-group btn-breadcrumb">
+            <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+            <a href="main.html" class="btn btn-default">Main</a>
+            <a href="#" class="btn btn-default">help</a>
+        </div>
 	</div>
 	
-	
-	</div>
 	<div class="row"></div>
 	<div class="row">
 	<div class="col-md-3">
@@ -100,8 +98,13 @@
 	</div>
 	</div>
 	</div>
-	<div class="col-md-2 search">
-	<div class="input-group">
+	<div class="col-md-2 ">
+	Language
+	<select class="selectpicker" data-width="fit">
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+  <option  data-content='<span class="flag-icon flag-icon-pk"></span> Urdu'>Urdu</option>
+</select>
+	<div class="input-group search">
       <input type="text" class="form-control" placeholder="Search for...">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button">Go!</button>
